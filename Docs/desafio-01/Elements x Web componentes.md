@@ -1,0 +1,3 @@
+# Diferença entre Elements e Web Components
+
+Elementos são as tags HTML utilizadas no site como: <img>, <p>, <h1> entre outras...
