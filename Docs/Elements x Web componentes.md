@@ -32,14 +32,15 @@ A principal vantagem de utilizar componentes é reutilizar ele em outros código
 1- Criar pasta SRC;
 2- Dentro da pasta SRC criar a pasta Components;
 3- Criar um arquivo .js
-Continuação no CardNews.js
+Continuação no CardNewsTeste.js...
 
 # ESTILIZANDO COMPONENT
 
-1- Fazer igual ao CardNews.js
-Continuação no TituloDinamico.js
+1- Fazer igual ao CardNewsTeste.js
+Continuação no TituloDinamico.js...
 
 # CRIANDO PROP
 
 1- Ao invés do textContent (conteúdo de texto) receber uma string, iremos dar a ela o this.getAttribute("nome do atributo")
 2- Depois, no arquivo HTML, dentro do Selector criado, escreva esse atributo e o que você quer que ele receba.
+Continuação no index.html...

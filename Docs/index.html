@@ -19,29 +19,30 @@
     <!--DIV de todo o conteúdo-->
     <div class="container">
 
-        <!--DIV do card de notícia horizontal-->
-        <div class="card">
+        <!--Nosso selector/componente criado com seus atributos-->
+        <card-news 
+            autor="Daniel"
+            title="Angular está no top 1!"
+            link-url="www.google.com"
+            photo="assets/angular.jpg"
+            content="Angular se torna o framework mais requisitado no mercado de programação. Entenda."
+        >
+        </card-news>
 
-            <!-- DIV sobre o que estará do lado esquerdo do card-->
-            <div class="card_left">
-                <span>Por Daniel Ribeiro</span>
-                <a href="#">Angular está no top 1!</a>
-                <p>Angular se torna o framework mais requisitado no mercado de programação. Entenda.</p>
-            </div>
-
-            <!-- DIV sobre o que estará do lado direito do card-->
-            <div class="card_right">
-                <img src="assets/angular.jpg" alt="Logo do framework Angular" title="Logo do framework Angular" width="350px">
-            </div>
-
-        </div>
+        <card-news 
+            autor=""
+            title="JavaScript é menos utilizado que TypeScript!"
+            link-url="www.google.com"
+            photo=""
+            content="TypeScript se torna mais utilizado que JavaScript no mercado da programação. Entenda."
+        >
+        </card-news>
 
     </div>
 
-    <!--Nossos selectors, componente criado-->
-    <card-news></card-news>
+    
 
-    <!--Novo selector com um atributo.-->
-    <titulo-dinamico título="Notícia Urgente"></titulo-dinamico>
+    <!--Novo selector com um atributo. (CRIADO NO TituloDinamico.js)-->
+    <!--<titulo-dinamico título="Notícia Urgente"></titulo-dinamico>-->
 </body>
 </html>
