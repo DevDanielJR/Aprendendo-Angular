@@ -1,0 +1,17 @@
+{
+  "name": "aprendendo-angular",
+  "version": "1.0.0",
+  "description": "Olá pessoas, esse é um repositório voltado para anotações sobre o framework Angular, caso queiram retomar alguns conceitos, sintam-se a vontade para olha este repositório. Bons Estudos :D",
+  "main": "index.js",
+  "scripts": {
+    "start":"npx tsc && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
+

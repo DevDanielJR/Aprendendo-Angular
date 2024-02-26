@@ -1,7 +1,5 @@
 //Vamos organizar o código.
-//No TituloDinamico.js fizemos a estilização e inserção de elementos HTML, para fazer isso de maneira mais organizada, vamos utilizar o build e styles 
-
-
+//No TituloDinamico.js fizemos a estilização e inserção de elementos HTML, para fazer isso de maneira mais organizada, vamos utilizar o build e styles
 class CardNews extends HTMLElement {
     constructor(){
         super();
